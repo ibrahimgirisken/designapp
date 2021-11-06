@@ -1,0 +1,20 @@
+export interface Product{
+    id:number;
+    productId:number;
+    barcode:string;
+    colorCode:string;
+    itemCode:string;
+    erpCode:string;
+    categoryId:string;
+    productName:string;
+    brand:string;
+    currencyCode:string;
+    price3:string;
+    price1:string;
+    tax:string;
+    grossQty:number;
+    status:boolean;
+    procurumenProcess:boolean;
+    shippingVolume:boolean;
+    url:string;
+}

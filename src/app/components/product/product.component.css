@@ -1,0 +1,16 @@
+.card{
+    float: left;
+    margin: 5px;
+}
+.card-text{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    height: max-content;
+}
+.btn-primary{
+    float: left;
+    max-width: 100%;
+    min-width: 100%;
+    display:block;
+}

@@ -1,0 +1,16 @@
+<div *ngFor="let product of products" class="container">
+<div  class="card" style="width: 15rem;height: 25rem;">
+    <img src="\assets\img\park\BJ-J9001.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h6 class="card-text">{{product.erpCode}}</h6>
+      <h5 class="card-title" style="height: 5rem;">{{product.productName}}</h5>
+      <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Officia repellat porro est adipisci ipsum quae labore!
+         Distinctio aperiam assumenda iure aliquam deleniti tenetur doloribus libero
+          laudantium beatae ullam, ut quasi.</div>
+      <p class="card-text">{{product.brand}}</p>
+      <a href="#" class="btn btn-primary">Detay</a>
+    </div>
+  </div>
+</div>
+  
